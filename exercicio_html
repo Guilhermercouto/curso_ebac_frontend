@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css"/>
+    <body>
+    <header>
+        <h1>Cadastro para "Olá Mundo"</h1>
+        <a href=" www.google.com" ></a>
+    </header>
+        <div class="nome">
+            <p>Nome:</p>
+            <label for="nome"></label>
+            <imput type="text"id='nome'></imput>
+            <textarea>nome completo</textarea>
+        </div>
+        <div class="email">
+            <p>E-mail:</p>
+            <label for="email"></label>
+            <imput type="text"id='email'\></imput>
+            <textarea>seu melhor email</textarea>
+        </div>
+        <div class="celular">
+            <p>Celular:</p>
+            <label for="celular"></label>
+            <imput type="celular"id='celular'\></imput>
+            <textarea>numero com ddd</textarea>
+        </div>
+        <div class="Concluir">
+            <div class="button"></div>
+            <button type="submit"> concluir</button>
+        </div>
+    </body>
+    </html>
